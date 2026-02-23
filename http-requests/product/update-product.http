@@ -1,0 +1,8 @@
+PUT http://localhost:2001/products/01509cd8-0812-40a8-9a88-16dfa625885d
+Content-Type: application/json
+
+{
+  "description" : "Leather and Durable",
+  "name": "Purse",
+  "price": 150
+}

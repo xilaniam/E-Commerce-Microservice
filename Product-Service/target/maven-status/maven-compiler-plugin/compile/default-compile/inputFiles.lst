@@ -1,0 +1,10 @@
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\controller\ProductController.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\dto\ProductRequestDTO.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\dto\ProductResponseDTO.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\exceptions\GlobalExceptionHandler.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\exceptions\ProductNotFoundException.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\kafka\KafkaProducer.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\model\Product.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\ProductServiceApplication.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\repository\ProductRepository.java
+D:\Programming\Spring\E-Commerce\Product-Service\src\main\java\com\ecommerce\productservice\service\ProductService.java

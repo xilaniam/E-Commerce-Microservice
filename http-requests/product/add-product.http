@@ -1,0 +1,17 @@
+POST http://localhost:2001/products
+Content-Type: application/json
+
+[
+  {
+    "name" : "Ajazz MultiBoard",
+    "description": "Tactile Switches",
+    "price" : 5020,
+    "quantity" : 50
+  },
+  {
+    "name" : "UGXX Drawing Board",
+    "description": "Smooth board matt black finish",
+    "price" : 10000,
+    "quantity" : 25
+  }
+]

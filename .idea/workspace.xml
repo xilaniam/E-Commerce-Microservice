@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6114d972-1fd9-446c-aae4-fd4dcb2fe5d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/src/main/java/com/ecommerce/apiservice/ApiServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/src/main/java/com/ecommerce/apiservice/config/ApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/src/main/java/com/ecommerce/apiservice/filters/JwtValidationGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/dto/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/dto/SignUpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/exception/UsernameAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/ecommerce/authservice/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/dto/InventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/exception/ProductAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/exception/ProductDoesntExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/exception/StockNegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/grpc/InventoryGrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/kafka/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/test/java/com/ecommerce/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/dto/OrderLineItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/dto/OrderRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/grpc/InventoryGrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/model/OrderLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/test/java/com/ecommerce/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/dto/ProductRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/dto/ProductResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/kafka/KafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/ecommerce/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/test/java/com/ecommerce/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-requests/auth/create-user.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-requests/auth/login.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-requests/product/get-product.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-requests/order/place-order.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-requests/product/add-product.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-requests/product/delete-product.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-requests/product/get-product-byid.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-requests/product/get-product.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-requests/product/update-product.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/src/main/proto/inventory-item.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/src/main/proto/product-event.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share-common/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="38VLaXhMwHgrxYBAKDDJmbVD6VC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;23&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Spring/E-Commerce/share-common/src/main/proto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4d0d51523c331b479f21beb295a2ec2a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Spring\E-Commerce\share-common\src\main\proto" />
+      <recent name="D:\Programming\Spring\E-Commerce\Order-Service\src\main\proto" />
+      <recent name="D:\Programming\Spring\E-Commerce\Inventory-Service\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Spring\E-Commerce" />
+      <recent name="D:\Programming\Spring\E-Commerce\http-requests\product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+    <configuration name="create-user | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth/create-user.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-product | #1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/product/get-product.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-product | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http-requests/product/get-product.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="login | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth/login.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="place-order | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http-requests/order/place-order.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Api-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.apiservice.ApiServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Auth-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Inventory-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Order-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Product-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.create-user | #1" />
+        <item itemvalue="HTTP Request.get-product | #1" />
+        <item itemvalue="HTTP Request.get-product | #1 (1)" />
+        <item itemvalue="HTTP Request.login | #1" />
+        <item itemvalue="HTTP Request.place-order | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6114d972-1fd9-446c-aae4-fd4dcb2fe5d7" name="Changes" comment="" />
+      <created>1768879857337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768879857337</updated>
+      <workItem from="1768879858350" duration="11052000" />
+      <workItem from="1768915714910" duration="3674000" />
+      <workItem from="1768923183249" duration="2044000" />
+      <workItem from="1768956291585" duration="8581000" />
+      <workItem from="1768971463998" duration="1132000" />
+      <workItem from="1768972607974" duration="1967000" />
+      <workItem from="1768984532377" duration="14844000" />
+      <workItem from="1769044156858" duration="5790000" />
+      <workItem from="1769056153171" duration="8953000" />
+      <workItem from="1769080410041" duration="1272000" />
+      <workItem from="1769093482516" duration="20158000" />
+      <workItem from="1769478511698" duration="6103000" />
+      <workItem from="1769999070022" duration="14174000" />
+      <workItem from="1770097553271" duration="2123000" />
+      <workItem from="1771825782313" duration="5960000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
