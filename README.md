@@ -1,151 +1,139 @@
-🛒 E-Commerce Microservices Backend
+# 🛒 E-Commerce Microservices Backend
 
-A Java Spring Boot–based E-Commerce backend built using a microservices architecture, featuring JWT authentication, a centralized API Gateway, and multiple domain services.
+A **Java Spring Boot–based E-Commerce backend** built using a **microservices architecture**, featuring **JWT authentication**, a **centralized API Gateway**, and multiple domain services.
 
-This project is designed to demonstrate real-world backend engineering practices and is suitable for portfolio and production-style learning.
+This project demonstrates **real-world backend engineering practices** such as secure API design, service separation, and gateway-based request handling. It is suitable for **portfolio presentation** and **production-style learning**.
 
-📐 Architecture Overview
+---
 
-The system follows a microservices architecture with a single entry point via an API Gateway.
+## 📐 Architecture Overview
 
+The system follows a **microservices architecture** with a single entry point via an **API Gateway**.
 Client
-  |
-  |  (JWT)
-  v
+|
+| (JWT)
+v
 API Gateway (Port 4000)
-  |
-  |-------------------------------
-  |           |           |
-Product   Inventory     Order
-Service    Service     Service
-(2001)     (2002)       (2003)
-  |
+|
+|-------------------------------
+| | |
+Product Inventory Order
+Service Service Service
+(2001) (2002) (2003)
+|
 Auth Service (2004)
-🧩 Services Included
-🔐 Auth Service
 
-Handles user authentication
 
-Generates JWT tokens
+---
 
-Central identity and security service
+## 🧩 Services Included
 
-Uses Spring Security
+### 🔐 Auth Service
+- Handles user authentication
+- Generates JWT tokens
+- Acts as the central identity service
+- Secured using Spring Security
 
-🌐 API Gateway
+---
 
-Single entry point for all client requests
+### 🌐 API Gateway
+- Single entry point for all client requests
+- Routes requests to backend services
+- Applies JWT validation filters
+- Blocks unauthorized access before routing
 
-Routes requests to backend services
+---
 
-Applies JWT validation filter
+### 📦 Product Service
+- Manages product-related APIs
+- Endpoints secured using JWT
+- Accessible through API Gateway
 
-Blocks unauthorized requests
+---
 
-📦 Product Service
+### 🏬 Inventory Service
+- Handles inventory and stock management
+- JWT-protected APIs
+- Designed for internal service communication
 
-Manages product-related APIs
+---
 
-JWT-protected endpoints
+### 🧾 Order Service
+- Manages order-related operations
+- JWT-secured endpoints
+- Designed for future service integrations
 
-Accessible only via API Gateway
+---
 
-🏬 Inventory Service
+## 🔐 Authentication & Security Flow
 
-Handles inventory and stock logic
+1. User authenticates via **Auth Service**
+2. Credentials are validated
+3. A **JWT token** is generated
+4. Client sends JWT with every request:
+5. API Gateway validates the token
+6. Valid requests are routed to the target service
+7. Invalid or missing tokens result in `401 Unauthorized`
 
-JWT-secured APIs
+All services are additionally protected using **Spring Security**, preventing direct unauthorized access.
 
-Gateway-routed access
+---
 
-🧾 Order Service
+## 🛠 Tech Stack
 
-Manages order-related operations
+- Java 17
+- Spring Boot
+- Spring Security
+- Spring Cloud Gateway
+- JWT (JSON Web Token)
+- PostgreSQL
+- Maven
+- Docker & Docker Compose
 
-JWT-protected endpoints
+---
 
-Designed for service-to-service integration
-
-🔐 Authentication & Security Flow
-
-User authenticates via Auth Service
-
-Auth Service validates credentials
-
-Auth Service generates a JWT
-
-Client sends JWT in every request:
-
-Authorization: Bearer <JWT>
-
-API Gateway validates the JWT
-
-Valid requests are forwarded to the target service
-
-Invalid or missing tokens result in 401 Unauthorized
-
-All services are protected using Spring Security to prevent unauthorized access.
-
-🛠 Tech Stack
-
-Java 17
-
-Spring Boot
-
-Spring Security
-
-Spring Cloud Gateway
-
-JWT (JSON Web Token)
-
-PostgreSQL
-
-Maven
-
-Docker & Docker Compose
-
-📂 Project Structure
+## 📂 Project Structure
 E-Commerce/
 │
-├── Api-Service/          # API Gateway
-├── Auth-Service/         # Authentication & JWT
-├── Product-Service/      # Product domain
-├── Inventory-Service/    # Inventory domain
-├── Order-Service/        # Order domain
+├── Api-Service/ # API Gateway
+├── Auth-Service/ # Authentication & JWT
+├── Product-Service/ # Product domain
+├── Inventory-Service/ # Inventory domain
+├── Order-Service/ # Order domain
 │
-├── share-common/         # Shared utilities / common code
-├── docker-compose.yml   # Multi-service orchestration
-├── api-requests/        # API request samples
-├── http-requests/       # HTTP test files
+├── share-common/ # Shared utilities / common code
+├── docker-compose.yml # Multi-service orchestration
+├── api-requests/ # API request samples
+├── http-requests/ # HTTP test files
 └── README.md
-✨ Key Highlights
 
-Microservices-based architecture
 
-JWT-based authentication
+---
 
-Centralized API Gateway security
+## ✨ Key Highlights
 
-Secure service-to-service communication
+- Microservices-based architecture
+- JWT-based authentication
+- Centralized API Gateway security
+- Secure service-to-service communication
+- Clean separation of concerns
+- Scalable and extensible design
 
-Clean separation of concerns
+---
 
-Scalable and extensible design
+## 🚧 Future Enhancements
 
-Docker-ready setup
+- Role-based authorization (ADMIN / USER)
+- Refresh token support
+- Service discovery (Eureka)
+- Centralized configuration server
+- Swagger / OpenAPI documentation
+- Rate limiting at API Gateway
+- Monitoring and logging
 
-🚧 Future Enhancements
+---
 
-Role-based authorization (ADMIN / USER)
+## 👨‍💻 Author
 
-Refresh token implementation
-
-Service discovery (Eureka)
-
-Centralized configuration server
-
-Swagger / OpenAPI documentation
-
-Rate limiting at API Gateway
-
-Monitoring and logging
+**Suyog Mainali**  
+Java Backend Developer | Spring Boot | Microservices  
