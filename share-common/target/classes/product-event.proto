@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package product.events;
+
+option java_multiple_files = true;
+
+message ProductEvent{
+  string productId = 1;
+  string quantity = 2;
+}
+
+message ProductEvents{
+  repeated ProductEvent product = 1;
+}

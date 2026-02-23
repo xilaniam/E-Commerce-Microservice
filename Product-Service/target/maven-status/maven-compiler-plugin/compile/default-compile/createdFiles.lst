@@ -1,0 +1,10 @@
+com\ecommerce\productservice\service\ProductService.class
+com\ecommerce\productservice\ProductServiceApplication.class
+com\ecommerce\productservice\dto\ProductRequestDTO.class
+com\ecommerce\productservice\repository\ProductRepository.class
+com\ecommerce\productservice\exceptions\GlobalExceptionHandler.class
+com\ecommerce\productservice\exceptions\ProductNotFoundException.class
+com\ecommerce\productservice\model\Product.class
+com\ecommerce\productservice\dto\ProductResponseDTO.class
+com\ecommerce\productservice\controller\ProductController.class
+com\ecommerce\productservice\kafka\KafkaProducer.class
